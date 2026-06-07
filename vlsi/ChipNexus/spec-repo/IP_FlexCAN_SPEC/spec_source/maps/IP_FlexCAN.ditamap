@@ -9,7 +9,7 @@
 <map xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/"
      ditaarch:DITAArchVersion="2.0"
      xml:lang="en"
-     xmlns:pm="http://nxp.com/schema/param-mapping">
+     xmlns:pm="http://bridgon.org/schema/param-mapping">
 
   <title>FlexCAN Module Reference Manual</title>
 

@@ -1,9 +1,9 @@
 # White Paper: Revolutionizing SoC Reference Manual Generation Through AI-Driven Automation
 
 **Authors:** Jayant Kaushik, Principal Technical Writer & Platform Architect
-**Organization:** NXP Semiconductors
+**Organization:** Bridgon
 **Date:** June 2026
-**Classification:** NXP Confidential
+**Classification:** Bridgon Confidential
 
 ---
 
@@ -11,7 +11,7 @@
 
 The semiconductor industry faces a growing documentation crisis: as System-on-Chip (SoC) complexity doubles with each generation, the effort required to produce accurate, comprehensive Reference Manuals has become a critical bottleneck in the tape-out process. Traditional manual documentation workflows—relying on engineers to manually extract RTL parameters, cross-reference memory maps, and assemble multi-thousand-page documents—can consume 6-8 weeks per SoC and introduce errors that compromise product quality.
 
-This white paper presents an AI-powered automated Reference Manual generation platform developed at NXP Semiconductors that reduces SoC documentation time from 6-8 weeks to under 4 hours while eliminating parameter extraction errors entirely. The platform integrates six interconnected subsystems: (1) a VS Code extension providing a unified authoring interface, (2) Verific-based design analysis for accurate RTL parameter extraction, (3) memory map-driven automatic instance map generation, (4) a JSON-based Non-RTL Parameter Database for documentation-specific configuration management, (5) AI-assisted DITA source auto-generation using the Claude API, and (6) a custom DITA-OT pipeline with register diagram generation and parameter resolution.
+This white paper presents an AI-powered automated Reference Manual generation platform developed at Bridgon that reduces SoC documentation time from 6-8 weeks to under 4 hours while eliminating parameter extraction errors entirely. The platform integrates six interconnected subsystems: (1) a VS Code extension providing a unified authoring interface, (2) Verific-based design analysis for accurate RTL parameter extraction, (3) memory map-driven automatic instance map generation, (4) a JSON-based Non-RTL Parameter Database for documentation-specific configuration management, (5) AI-assisted DITA source auto-generation using the Claude API, and (6) a custom DITA-OT pipeline with register diagram generation and parameter resolution.
 
 Key results include a 270x reduction in documentation generation time, zero parameter transcription errors, 80% fewer build failures, and 40% reduction in internal support queries through an AI-powered Reference Manual Explorer with RAG-based chatbot capabilities.
 
@@ -27,7 +27,7 @@ As SoC complexity has grown exponentially (driven by advanced process nodes, het
 
 ### 1.2 The Legacy Documentation Flow
 
-The traditional documentation workflow at NXP (and across much of the semiconductor industry) followed a predominantly manual process:
+The traditional documentation workflow at Bridgon (and across much of the semiconductor industry) followed a predominantly manual process:
 
 1. **Parameter Extraction:** Engineers manually extracted RTL (Register Transfer Level) parameter values from LEC (Logic Equivalence Checking) tool logs—a process requiring 4-6 hours per IP block with approximately 15% error rates due to incorrect hierarchy level selection.
 
@@ -224,7 +224,7 @@ For multi-instance scenarios, the plugin generates memory map tables showing eac
 
 **Stage 4: Multi-Format Output**
 The resolved, parameter-free DITA is rendered into multiple output formats:
-- **PDF:** Via DITA-OT's PDF2 plugin with custom XSL-FO stylesheets for NXP's corporate template
+- **PDF:** Via DITA-OT's PDF2 plugin with custom XSL-FO stylesheets for Bridgon's corporate template
 - **WebHelp:** Responsive HTML5 with collapsible TOC, full-text search, and bookmark persistence
 - **RAG Knowledge Base:** Chunked embeddings for the AI chatbot context
 
@@ -298,7 +298,7 @@ Each parameter also carries a `source` attribute ("RTL" or "nonrtl") that determ
 
 ### 5.3 Parameterized Content Model
 
-The platform introduces `pm:cond_*` attributes in the `http://nxp.com/schema/param-mapping` namespace. These attributes enable conditional content inclusion/exclusion based on instantiated parameter values:
+The platform introduces `pm:cond_*` attributes in the `http://bridgon.org/schema/param-mapping` namespace. These attributes enable conditional content inclusion/exclusion based on instantiated parameter values:
 
 ```xml
 <topicref href="FlexCAN_CANFD_Support.dita"
@@ -391,7 +391,7 @@ This mechanism is more powerful than standard DITAVAL filtering because paramete
 
 ## 9. Conclusion
 
-The AI-powered automated Reference Manual generation platform has fundamentally transformed how SoC documentation is created at NXP Semiconductors. By integrating commercial-grade RTL elaboration, structured authoring frameworks, and generative AI into a unified pipeline, the platform has:
+The AI-powered automated Reference Manual generation platform has fundamentally transformed how SoC documentation is created at Bridgon. By integrating commercial-grade RTL elaboration, structured authoring frameworks, and generative AI into a unified pipeline, the platform has:
 
 - Reduced documentation generation time from 6-8 weeks to under 4 hours
 - Eliminated parameter extraction and transcription errors

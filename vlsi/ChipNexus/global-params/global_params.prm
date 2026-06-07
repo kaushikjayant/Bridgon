@@ -14,13 +14,13 @@
 
   <parameter id="GLB_CORP_LEGAL_TEXT" class="string" source="nonrtl">
     <name>Corporate Legal Notice</name>
-    <default>CONFIDENTIAL PROPRIETARY — NXP Semiconductors. All rights reserved. This document and the information contained herein is confidential and proprietary to NXP Semiconductors.</default>
+    <default>CONFIDENTIAL PROPRIETARY — Bridgon. All rights reserved. This document and the information contained herein is confidential and proprietary to Bridgon.</default>
     <description>Standard legal disclaimer text included in all published documents.</description>
   </parameter>
 
   <parameter id="GLB_WATERMARK_TEXT" class="string" source="nonrtl">
     <name>Watermark Text</name>
-    <default>NXP Confidential</default>
+    <default>Bridgon Confidential</default>
     <description>Diagonal watermark text applied to all pages depending on security classification.</description>
   </parameter>
 

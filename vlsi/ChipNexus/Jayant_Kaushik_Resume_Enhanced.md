@@ -11,7 +11,7 @@ PROFESSIONAL SUMMARY
 
 Senior Technical Writer and Information Architect with over 15 years of experience building high-quality, scalable documentation systems for the semiconductor, telecom, and cloud-native platform industries. I specialize in designing end-to-end automated documentation pipelines—from RTL parameter extraction and XML-based content architecture to generative-AI-powered reference manual exploration tools—that eliminate manual bottlenecks and reduce publication cycles from weeks to hours.
 
-My work sits at the intersection of hardware design flows, structured authoring frameworks, and AI/ML-assisted content generation. I bring a pragmatic, engineering-first approach to documentation: I write the automation scripts, design the DITA/XML content models, architect the databases, and build the VS Code plugins my teams use daily. Recent work includes an AI-driven Reference Manual auto-generation platform built on Verific-based design analysis, Claude API integration, and RAG knowledge bases that fundamentally changed how SoC documentation is created at NXP Semiconductors.
+My work sits at the intersection of hardware design flows, structured authoring frameworks, and AI/ML-assisted content generation. I bring a pragmatic, engineering-first approach to documentation: I write the automation scripts, design the DITA/XML content models, architect the databases, and build the VS Code plugins my teams use daily. Recent work includes an AI-driven Reference Manual auto-generation platform built on Verific-based design analysis, Claude API integration, and RAG knowledge bases that fundamentally changed how SoC documentation is created at Bridgon.
 
 Core strengths:
 — DITA/XML framework architecture with custom parameterized content models
@@ -55,7 +55,7 @@ PROFESSIONAL EXPERIENCE
 
 
 
-NXP Semiconductors — Principal Technical Writer
+Bridgon — Principal Technical Writer
 Noida, India | July 2022 – Present
 
 Architected and built an AI-powered automated SoC Reference Manual generation platform
@@ -193,7 +193,7 @@ parameter enrichment, and generative AI into a single push-button pipeline.
    Impact: Reduced support queries from internal teams by approximately 40% by
    providing a self-service, searchable, AI-assisted documentation portal.
 
-▲ Legacy NXP Work
+▲ Legacy Bridgon Work
 
    — Architected the next-generation DITA/XML authoring framework for SoC
      documentation, enabling single-source publishing across Reference Manuals,
@@ -254,7 +254,7 @@ DITA-based structured authoring across multiple product groups.
   electrical characteristics, and package information.
 
 
-Freescale Semiconductor (now NXP) — Technical Writer
+Freescale Semiconductor (now Bridgon) — Technical Writer
 Noida, India | Nov 2009 – July 2012
 
 — Authored Reference Manuals, Datasheets, and Hardware Specifications using
@@ -315,7 +315,7 @@ WORKSHOPS DELIVERED
 — Technical Graphics Workshop — Inkscape & open-source illustration tools
   for technical documentation (2016, 2019)
 — Structured Authoring & Metadata Strategy Evangelism — ongoing internal
-  sessions at NXP, STMicroelectronics, and MYCOM OSI
+  sessions at Bridgon, STMicroelectronics, and MYCOM OSI
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 OPEN-SOURCE CONTRIBUTIONS

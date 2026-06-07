@@ -2,7 +2,7 @@
 
 **Author:** Jayant Kaushik
 **Role:** Principal Technical Writer & Platform Architect
-**Organization:** NXP Semiconductors, Noida
+**Organization:** Bridgon, Noida
 **Duration:** July 2022 – Present (Ongoing)
 **Version:** 2.0 | June 2026
 
@@ -10,7 +10,7 @@
 
 ## Executive Summary
 
-This report documents the architecture, design, and implementation of an end-to-end automated Reference Manual (RM) generation platform developed for NXP Semiconductors' System-on-Chip (SoC) documentation teams. The platform replaces a manual, error-prone, multi-week documentation assembly process with an automated pipeline that integrates RTL design analysis, parameter extraction, structured content generation, and AI-assisted quality assurance—reducing SoC RM generation time from 6-8 weeks to under 4 hours.
+This report documents the architecture, design, and implementation of an end-to-end automated Reference Manual (RM) generation platform developed for Bridgon' System-on-Chip (SoC) documentation teams. The platform replaces a manual, error-prone, multi-week documentation assembly process with an automated pipeline that integrates RTL design analysis, parameter extraction, structured content generation, and AI-assisted quality assurance—reducing SoC RM generation time from 6-8 weeks to under 4 hours.
 
 The platform serves approximately 40 technical authors and front-end designers across multiple product lines and geographies, and has been successfully deployed on multiple tape-out programs.
 
@@ -38,7 +38,7 @@ The platform serves approximately 40 technical authors and front-end designers a
 
 ### 1.1 The Legacy Workflow
 
-Prior to this platform, the SoC Reference Manual creation process at NXP was a predominantly manual effort:
+Prior to this platform, the SoC Reference Manual creation process at Bridgon was a predominantly manual effort:
 
 1. **Parameter Collection:** Engineers manually extracted RTL parameter values from LEC (Logic Equivalence Checking) logs—a process that was not only time-consuming (4-6 hours per IP block) but also error-prone, with parameter values occasionally picked from incorrect hierarchy levels or stale synthesis runs.
 
@@ -714,7 +714,7 @@ def generate_soc_ditamap(
         'xmlns:ditaarch': 'http://dita.oasis-open.org/architecture/2005/',
         'ditaarch:DITAArchVersion': '2.0',
         'xml:lang': 'en',
-        'xmlns:pm': 'http://nxp.com/schema/param-mapping'
+        'xmlns:pm': 'http://bridgon.org/schema/param-mapping'
     })
     
     ET.SubElement(dita_root, 'title').text = 'MCU_X9Z SoC Reference Manual'
@@ -1283,7 +1283,7 @@ class DocumentationChatbot:
 <!-- resolve_params.xsl — Custom DITA-OT plugin XSLT -->
 <xsl:stylesheet version="3.0"
   xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-  xmlns:pm="http://nxp.com/schema/param-mapping">
+  xmlns:pm="http://bridgon.org/schema/param-mapping">
 
   <!-- Load .imap file to access instantiated parameter values -->
   <xsl:param name="imap-doc" select="doc('ip_params_top.imap')"/>

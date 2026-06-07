@@ -119,8 +119,8 @@ Bridgon/
     │   │
     │   ├── templates/                      # DITA Templates
     │   ├── docs/                           # Documentation & Whitepapers
-    │   │   ├── NXP_RM_Platform_Project_Report.docx/pdf
-    │   │   ├── NXP_RM_Platform_Whitepaper.docx/pdf
+    │   │   ├── Bridgon_RM_Platform_Project_Report.docx/pdf
+    │   │   ├── Bridgon_RM_Platform_Whitepaper.docx/pdf
     │   │   ├── nonrtl_db_update_workflow.html
     │   │   └── rm_platform.html
     │   │
@@ -593,7 +593,7 @@ python3 rm_explorer.py
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
-<param_definitions xmlns:pm="http://nxp.com/schema/param-mapping">
+<param_definitions xmlns:pm="http://bridgon.org/schema/param-mapping">
 
   <param id="CAN_NUM_MB" class="integer" source="RTL">
     <description>Number of CAN message buffers (mailboxes)</description>
@@ -1416,10 +1416,10 @@ Apache 2.0
 
 ## 👤 Author
 
-**Jayant Kaushik** — Principal Technical Writer & Platform Architect, NXP Semiconductors
+**Jayant Kaushik** — Principal Technical Writer & Platform Architect, Bridgon
 
 - **Platform Development:** July 2022 – Present
-- **Organization:** NXP Semiconductors, Noida, India
+- **Organization:** Bridgon, India
 - **Users Served:** 40+ technical authors across 5 product lines and multiple geographies
 
 ---

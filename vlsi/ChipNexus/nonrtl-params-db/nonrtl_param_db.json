@@ -1,6 +1,44 @@
 {
   "_description": "Non-RTL Parameter Database — JSON-based ditabase recording hierarchies and associations of each non-RTL parameter with IP instances, SubSystems, and SoC configurations. Not a SQL DB; structured as nested JSON with chip_prefix-based lookups.",
-  "_schema_version": "2.1",
+  "_schema_version": "3.0",
+  "_default_author": "doc-team",
+  "_author_assignments": {
+    "IP_FlexCAN_SPEC": "can-team",
+    "IP_DMA_SPEC": "dma-team",
+    "IP_UART_SPEC": "serial-team",
+    "IP_GPIO_SPEC": "gpio-team",
+    "SOC_XYZ_SPEC": "soc-team",
+    "SS_AHB_SPEC": "bus-team"
+  },
+  "_contributions_dir": "db-contributions",
+  "_workflow": {
+    "description": "Non-RTL Parameter DB update workflow (see docs/nonrtl_db_update_workflow.html)",
+    "triggers": [
+      "New non-RTL param in .prm (source=nonrtl)",
+      "New SoC/SubSystem added to memory map XLSX",
+      "Param removed from .prm",
+      "IP removed from SoC/SubSystem"
+    ],
+    "pipeline": [
+      "CI hook detects .prm or .xlsx diff on commit",
+      "Gap analyzer diffs .prm vs DB entries per SoC/instance",
+      "If gaps/orphans detected → Contribution YAML generated with empty slots",
+      "Contribution YAML auto-assigned to authors based on spec ownership",
+      "PR created from db-contributions/ branch",
+      "Schema validation checks type, range, enum, required fields",
+      "On pass + review → DB merge"
+    ]
+  },
+  "_copy_from_directives": {
+    "description": "Chip variant inheritance — new chip prefixes can inherit parent values",
+    "example": {
+      "chip_prefix": "MCU_X9Z_LITE",
+      "copy_from": "MCU_X9Z",
+      "overrides": {
+        "SOC_PUBLISH_MODE": "PREVIEW"
+      }
+    }
+  },
   
   "chip_prefixes": {
     "MCU_X": {
