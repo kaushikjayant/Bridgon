@@ -4,8 +4,12 @@
   Defines register resolution groups, instance selectors, merging rules,
   and output configuration. Referenced by the DITA map during publication.
 -->
-<pub xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-     xmlns:pm="http://bridgon.org/schema/param-mapping"
+<pub
+    xmlns="http://bridgon.com/schemas/publishing"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:pm="http://bridgon.com/schemas/param-mapping"
+    xsi:schemaLocation="http://bridgon.com/schemas/publishing ../../../../schemas/bridgon-pub.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns:pm="http://bridgon.com/schemas/param-mapping"
      spec_id="IP_FlexCAN">
 
   <description>

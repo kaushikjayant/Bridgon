@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA 2.0 Map//EN" "../../../dita-ot-4.4/plugins/org.oasis-open.dita.techcomm.v2_0/dtd/technicalContent/map.dtd">
 <!--
   SOC_XYZ_top.ditamap — Top-level DITA map for SoC XYZ Reference Manual.
   Aggregates multiple IP-level ditamaps and SubSystem-level ditamaps
@@ -8,7 +9,7 @@
 <map xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/"
      ditaarch:DITAArchVersion="2.0"
      xml:lang="en"
-      xmlns:pm="http://bridgon.org/schema/param-mapping">
+      xmlns:pm="http://bridgon.com/schemas/param-mapping">
 
   <title>MCU_X9Z SoC Reference Manual</title>
 

@@ -4,7 +4,10 @@
   This file defines instantiated parameter values for publishing an IP-level
   specification. It references the corresponding paramdef file.
 -->
-<instance xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<instance
+    xmlns="http://bridgon.com/schemas/instance-map"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://bridgon.com/schemas/instance-map ../../../../schemas/bridgon-imap.xsd"
           spec_id="IP_FlexCAN"
           paramdef_ref="../params/IP_FlexCAN.prm">
 

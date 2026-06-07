@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<paramdef spec_id="IP_GPIO">
+<paramdef
+    xmlns="http://bridgon.com/schemas/param-mapping"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://bridgon.com/schemas/param-mapping ../../../../schemas/bridgon-prm.xsd" spec_id="IP_GPIO">
   <parameter id="GPIO_NUM_PINS" class="integer" source="RTL">
     <name>Number of GPIO Pins</name>
     <default>32</default>

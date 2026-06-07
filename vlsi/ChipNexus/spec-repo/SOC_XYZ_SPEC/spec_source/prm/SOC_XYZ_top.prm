@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<paramdef spec_id="SOC_XYZ">
+<paramdef
+    xmlns="http://bridgon.com/schemas/param-mapping"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://bridgon.com/schemas/param-mapping ../../../../schemas/bridgon-prm.xsd" spec_id="SOC_XYZ">
   <parameter id="SOC_CHIP_NAME" class="string" source="nonrtl">
     <name>Chip Name</name>
     <default>SoC_Demo</default>

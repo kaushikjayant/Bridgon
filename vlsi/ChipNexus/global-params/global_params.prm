@@ -4,7 +4,11 @@
   These parameters do not need to be redefined in every IP-level .prm file.
   They are automatically merged into the parameter resolution context.
 -->
-<paramdef spec_id="GLOBAL">
+<paramdef
+    xmlns="http://bridgon.com/schemas/param-mapping"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://bridgon.com/schemas/param-mapping ../../../schemas/bridgon-prm.xsd"
+    spec_id="GLOBAL">
   
   <parameter id="GLB_PUBLISH_DATE" class="string" source="nonrtl">
     <name>Publication Date</name>

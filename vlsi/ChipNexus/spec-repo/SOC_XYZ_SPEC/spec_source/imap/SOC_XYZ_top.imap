@@ -5,7 +5,10 @@
   parameter overrides. Generated automatically by the design analysis flow
   and enriched with non-RTL params from the Non-RTL Parameter Database.
 -->
-<instance xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<instance
+    xmlns="http://bridgon.com/schemas/instance-map"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://bridgon.com/schemas/instance-map ../../../../schemas/bridgon-imap.xsd"
           spec_id="SOC_XYZ"
           chip_prefix="MCU_X"
           paramdef_ref="../params/SOC_XYZ_top.prm"

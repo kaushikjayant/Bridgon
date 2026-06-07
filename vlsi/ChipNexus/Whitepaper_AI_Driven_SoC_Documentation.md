@@ -298,7 +298,7 @@ Each parameter also carries a `source` attribute ("RTL" or "nonrtl") that determ
 
 ### 5.3 Parameterized Content Model
 
-The platform introduces `pm:cond_*` attributes in the `http://bridgon.org/schema/param-mapping` namespace. These attributes enable conditional content inclusion/exclusion based on instantiated parameter values:
+The platform introduces `pm:cond_*` attributes in the `http://bridgon.com/schemas/param-mapping` namespace. These attributes enable conditional content inclusion/exclusion based on instantiated parameter values:
 
 ```xml
 <topicref href="FlexCAN_CANFD_Support.dita"

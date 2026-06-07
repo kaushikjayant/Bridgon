@@ -714,7 +714,7 @@ def generate_soc_ditamap(
         'xmlns:ditaarch': 'http://dita.oasis-open.org/architecture/2005/',
         'ditaarch:DITAArchVersion': '2.0',
         'xml:lang': 'en',
-        'xmlns:pm': 'http://bridgon.org/schema/param-mapping'
+        'xmlns:pm': 'http://bridgon.com/schemas/param-mapping'
     })
     
     ET.SubElement(dita_root, 'title').text = 'MCU_X9Z SoC Reference Manual'
@@ -1283,7 +1283,7 @@ class DocumentationChatbot:
 <!-- resolve_params.xsl — Custom DITA-OT plugin XSLT -->
 <xsl:stylesheet version="3.0"
   xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-  xmlns:pm="http://bridgon.org/schema/param-mapping">
+  xmlns:pm="http://bridgon.com/schemas/param-mapping">
 
   <!-- Load .imap file to access instantiated parameter values -->
   <xsl:param name="imap-doc" select="doc('ip_params_top.imap')"/>

@@ -4,7 +4,10 @@
   Similar to IP-XACT but in a custom format tailored for DITA transformation.
   Contains register descriptions, bit-field definitions, access types, and reset values.
 -->
-<registers xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<registers
+    xmlns="http://bridgon.com/schemas/register-db"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://bridgon.com/schemas/register-db ../../../../schemas/bridgon-rdb.xsd"
            ip_name="FlexCAN"
            regs_id="CAN_CORE">
 

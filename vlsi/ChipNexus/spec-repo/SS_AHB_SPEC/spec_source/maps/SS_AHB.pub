@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<pub spec_id="SS_AHB">
+<pub
+    xmlns="http://bridgon.com/schemas/publishing"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:pm="http://bridgon.com/schemas/param-mapping"
+    xsi:schemaLocation="http://bridgon.com/schemas/publishing ../../../../schemas/bridgon-pub.xsd" spec_id="SS_AHB">
   <paramdef_href href="../prm/SS_AHB.prm"/>
 
   <resolve_group id="DMA_ENGINE_0">

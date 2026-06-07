@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<instance spec_id="SS_AHB" chip_prefix="DEMO"
+<instance
+    xmlns="http://bridgon.com/schemas/instance-map"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://bridgon.com/schemas/instance-map ../../../../schemas/bridgon-imap.xsd spec_id="SS_AHB" chip_prefix="DEMO"
           paramdef_ref="../prm/SS_AHB.prm"
           global_paramdef_ref="../../../global-params/global_params.prm">
 
