@@ -2,7 +2,7 @@
 <instance
     xmlns="http://bridgon.com/schemas/instance-map"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://bridgon.com/schemas/instance-map ../../../../schemas/bridgon-imap.xsd"
+    xsi:schemaLocation="http://bridgon.com/schemas/instance-map http://bridgon.com/schemas/bridgon-imap.xsd"
     spec_id="IP_GPIO" paramdef_ref="../prm/IP_GPIO.prm">
   <reg instance_name="GPIO_block_0">
     <regs_link href="../rdb/GPIO_core_regs.rdb"/>

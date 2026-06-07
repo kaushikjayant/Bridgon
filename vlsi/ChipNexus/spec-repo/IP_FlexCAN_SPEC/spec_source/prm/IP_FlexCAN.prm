@@ -8,7 +8,7 @@
 <paramdef
     xmlns="http://bridgon.com/schemas/param-mapping"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://bridgon.com/schemas/param-mapping ../../../../schemas/bridgon-prm.xsd" spec_id="IP_FlexCAN">
+    xsi:schemaLocation="http://bridgon.com/schemas/param-mapping http://bridgon.com/schemas/bridgon-prm.xsd" spec_id="IP_FlexCAN">
   
   <parameter id="CAN_NUM_MB" class="integer" source="RTL">
     <name>Number of Mailboxes</name>

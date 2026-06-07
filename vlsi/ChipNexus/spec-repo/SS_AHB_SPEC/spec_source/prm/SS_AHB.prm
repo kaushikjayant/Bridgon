@@ -2,7 +2,7 @@
 <paramdef
     xmlns="http://bridgon.com/schemas/param-mapping"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://bridgon.com/schemas/param-mapping ../../../../schemas/bridgon-prm.xsd" spec_id="SS_AHB">
+    xsi:schemaLocation="http://bridgon.com/schemas/param-mapping http://bridgon.com/schemas/bridgon-prm.xsd" spec_id="SS_AHB">
   <parameter id="SS_AHB_DATA_WIDTH" class="integer" source="RTL">
     <name>AHB Data Bus Width</name>
     <default>64</default>

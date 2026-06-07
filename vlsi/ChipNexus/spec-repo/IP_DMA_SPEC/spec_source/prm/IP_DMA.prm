@@ -2,7 +2,7 @@
 <paramdef
     xmlns="http://bridgon.com/schemas/param-mapping"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://bridgon.com/schemas/param-mapping ../../../../schemas/bridgon-prm.xsd" spec_id="IP_DMA">
+    xsi:schemaLocation="http://bridgon.com/schemas/param-mapping http://bridgon.com/schemas/bridgon-prm.xsd" spec_id="IP_DMA">
   <parameter id="DMA_NUM_CHANNELS" class="integer" source="RTL">
     <name>Number of DMA Channels</name>
     <default>32</default>

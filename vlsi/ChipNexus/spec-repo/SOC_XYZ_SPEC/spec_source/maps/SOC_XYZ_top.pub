@@ -3,7 +3,7 @@
     xmlns="http://bridgon.com/schemas/publishing"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:pm="http://bridgon.com/schemas/param-mapping"
-    xsi:schemaLocation="http://bridgon.com/schemas/publishing ../../../../schemas/bridgon-pub.xsd" spec_id="SOC_XYZ">
+    xsi:schemaLocation="http://bridgon.com/schemas/publishing http://bridgon.com/schemas/bridgon-pub.xsd" spec_id="SOC_XYZ">
   <paramdef_href href="../prm/SOC_XYZ_top.prm"/>
 
   <resolve_group id="FLEXCAN_CORE_0">

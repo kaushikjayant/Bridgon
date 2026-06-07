@@ -7,7 +7,7 @@
 <instance
     xmlns="http://bridgon.com/schemas/instance-map"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://bridgon.com/schemas/instance-map ../../../../schemas/bridgon-imap.xsd"
+    xsi:schemaLocation="http://bridgon.com/schemas/instance-map http://bridgon.com/schemas/bridgon-imap.xsd"
           spec_id="IP_FlexCAN"
           paramdef_ref="../params/IP_FlexCAN.prm">
 

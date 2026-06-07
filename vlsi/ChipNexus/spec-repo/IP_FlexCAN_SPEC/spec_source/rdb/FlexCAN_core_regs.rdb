@@ -7,7 +7,7 @@
 <registers
     xmlns="http://bridgon.com/schemas/register-db"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://bridgon.com/schemas/register-db ../../../../schemas/bridgon-rdb.xsd"
+    xsi:schemaLocation="http://bridgon.com/schemas/register-db http://bridgon.com/schemas/bridgon-rdb.xsd"
            ip_name="FlexCAN"
            regs_id="CAN_CORE">
 

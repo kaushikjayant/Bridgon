@@ -2,7 +2,7 @@
 <paramdef
     xmlns="http://bridgon.com/schemas/param-mapping"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://bridgon.com/schemas/param-mapping ../../../../schemas/bridgon-prm.xsd" spec_id="IP_UART">
+    xsi:schemaLocation="http://bridgon.com/schemas/param-mapping http://bridgon.com/schemas/bridgon-prm.xsd" spec_id="IP_UART">
   <parameter id="UART_BAUD_RATE" class="integer" source="RTL">
     <name>Default Baud Rate</name>
     <default>115200</default>
