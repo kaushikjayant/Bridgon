@@ -2,7 +2,8 @@
 <instance
     xmlns="http://bridgon.com/schemas/instance-map"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://bridgon.com/schemas/instance-map ../../../../schemas/bridgon-imap.xsd spec_id="IP_DMA" paramdef_ref="../prm/IP_DMA.prm">
+    xsi:schemaLocation="http://bridgon.com/schemas/instance-map ../../../../schemas/bridgon-imap.xsd"
+    spec_id="IP_DMA" paramdef_ref="../prm/IP_DMA.prm">
   <reg instance_name="DMA_engine_0">
     <regs_link href="../rdb/DMA_core_regs.rdb"/>
     <base_address>0x40010000</base_address>
